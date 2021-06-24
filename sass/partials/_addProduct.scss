@@ -1,0 +1,10 @@
+.upload__background {
+    display: block;
+    background-color: $light-grey !important;
+}
+
+#uploadImage {
+    display: none;
+    max-height: 200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: $light;
+  color: $dark-grey;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.container__products {
+  margin-top: 2rem;
+}

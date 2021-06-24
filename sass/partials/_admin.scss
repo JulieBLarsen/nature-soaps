@@ -1,0 +1,31 @@
+.admin {
+    text-align: center !important;
+
+    &__header {
+        margin-bottom: 4rem;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .single__product {
+
+
+        .icon--add {
+            cursor: pointer;
+            font-size: 5rem;
+            color: $light-grey;
+        }
+
+        .icon--add:hover {
+            color: $dark-grey;
+        }
+    }
+}
+
+.container__products__cart__price {
+    h5 {
+        font-weight: 700;
+    }
+}

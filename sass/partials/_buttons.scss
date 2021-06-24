@@ -1,0 +1,62 @@
+.button {
+    background-color: $dark-grey;
+    padding: 0.5rem 2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    margin: 1rem 0;
+
+    &:hover {
+        background-color: $apricot;
+        color: $dark-grey;
+    }
+
+    &:active {
+        background-color: $coral !important;
+        color: $dark-grey !important;
+    }
+
+    &--text-only {
+        background: none;
+
+        &:hover {
+            color: #000;
+            background: none;
+        }
+    }
+}
+
+.btn {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem !important;
+
+    &-primary {
+        background-color: $dark-grey;
+        border-color: $dark-grey;
+
+        &:hover {
+            background-color: $apricot;
+            border-color: $apricot;
+            color: $dark-grey;
+        }
+
+        &:active,
+        &:focus {
+            background-color: $coral !important;
+            border-color: $coral !important;
+        }
+    }
+
+    &-outline-dark:hover {
+        background-color: $dark-grey;
+
+    }
+
+    i {
+        margin-left: 10px;
+    }
+}

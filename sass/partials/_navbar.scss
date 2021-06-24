@@ -1,0 +1,18 @@
+.navbar {
+    background-color: $light;
+    box-shadow: $box-shadow;
+
+    .nav-link {
+        letter-spacing: 1px;
+        color: $dark-grey !important;
+
+        &:hover {
+            color: #000 !important;
+        }
+    }
+}
+
+.navbar-brand img {
+    height: 50px;
+    fill: white;
+}

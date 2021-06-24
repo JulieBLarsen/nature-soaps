@@ -1,0 +1,57 @@
+body {
+    font-family: "Lato", sans-serif !important;
+    color: #000;
+}
+
+a {
+    color: $dark-grey;
+
+    &:hover {
+        color: $dark-grey;
+        background: none;
+    }
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.nav-link {
+    padding: 1rem 1.5rem !important;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.link {
+    &--big {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+.header {
+    h1 {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    p {
+        line-height: 1.7;
+        font-size: 1.3rem;
+    }
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1rem;
+}

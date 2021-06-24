@@ -1,0 +1,40 @@
+footer {
+    background-color: $dark-grey;
+    margin-top: 200px;
+    padding: 50px;
+    color: #FFF;
+
+    img {
+        display: block;
+        height: 100px;
+        margin: 0 auto 50px auto;
+    }
+
+    nav {
+        width: 90%;
+        margin: 0 auto;
+
+        a {
+            background-color: $dark-grey;
+            letter-spacing: 2px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            display: block;
+            color: #FFF;
+            padding: 1rem;
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+
+    p {
+        color: $light-grey;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 25px;
+        margin-bottom: -25px;
+    }
+}
